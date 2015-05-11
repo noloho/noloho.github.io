@@ -1,0 +1,22 @@
+body{
+    background-color: #f44336;
+}
+
+h1{
+    font-size: 4em;
+    font-family: Roboto-Regular, Roboto, sans-serif;
+    color: white; text-align:center;
+}
+
+nav{
+    background-color: gold;
+    color: white;
+}
+
+nav a{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
