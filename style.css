@@ -1,23 +1,17 @@
-body{
-    background-color: #f44336;
+* {
+  margin: 0;
+  padding: 0;
 }
-
-h1{
-    font-size: 4em;
-    font-family: Roboto-Regular, Roboto, sans-serif;
-    color: white; text-align:center;
+.container {
+  overflow: auto;
+  display: block;
 }
-
-nav{
-    background-color: #ff1744;
-    color: white;
-}
-
-nav a{
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-decoration: none; 
-    
+.container > div {
+  margin: 20px;
+  width: 150px;
+  height: 100px;
+  background: blue;
+  float: left;
+  color: #fff;
+  text-align: center;
 }
